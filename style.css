@@ -40,7 +40,7 @@ body{
 	left: 90%;
 }
 h2{
-	font-family: open sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 }
 #title1{
@@ -58,7 +58,7 @@ h2{
 }
 
 h1{font-size: 220px; 
-	font-family: Futura;
+	font-family: Futura,sans-serif;
 	margin: 0px;
 }
 
