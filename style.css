@@ -20,28 +20,10 @@ body{
 	}
 }
 
-#p{
-	margin-right: 0px;
-	padding: 0px;
-	position: absolute;
-	width: 80px;
-}
-#a{
-	margin-right: 0px;
-	padding: 0px;
-	left: 50%;
-	position: absolute;
-	width: 80px;
-}
-#m{
-	margin-right: 0px;
-	padding: 0px;
-	position: absolute;
-	left: 90%;
-}
 h2{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
+	padding-top: 30%;
 }
 #title1{
 	top: 15%;
@@ -58,7 +40,7 @@ h2{
 }
 
 h1{font-size: 220px; 
-	font-family: Futura,sans-serif;
+	font-family: Futura, sans-serif;
 	margin: 0px;
 }
 
@@ -76,13 +58,13 @@ img{
 	position: absolute;
 }
 .first{
-	width:300px;
-	height: 300px;
+	width:270px;
+	height: 270px;
 	margin: 0px;
     position: absolute;}
 .second{
-	width:300px;
-	height: 300px;
+	width:270px;
+	height: 270px;
 	margin: 0px;
 	left: 330px;
     position: absolute;}
@@ -94,14 +76,92 @@ img{
 	position: absolute;
 }
 .third{
-	width:300px;
-	height: 300px;
+	width:270px;
+	height: 270px;
 	margin: 0px;
     position: absolute;}
 .fourth{
-	width:300px;
-	height: 300px;
+	width:270px;
+	height: 270px;
 	margin: 0px;
 	left: 330px;
     position: absolute;}
 
+.overlay1 {
+	width:270px;
+	height: 270px; 
+	border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+}
+.overlay2 {
+	width:270px;
+	height: 270px; 
+	border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+}
+.overlay3 {
+	width:270px;
+	height: 270px; 
+	border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+}
+.overlay4 {
+	width:270px;
+	height: 270px; 
+	border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.first:hover .overlay1 {
+  opacity: 1;
+}
+.second:hover .overlay2 {
+  opacity: 1;
+}
+.third:hover .overlay3 {
+  opacity: 1;
+}
+.fourth:hover .overlay4 {
+  opacity: 1;
+}
