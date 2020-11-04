@@ -26,7 +26,7 @@
 }
 
 h1{
-	font-family: open sans;
+	font-family: 'Open Sans', sans-serif;
 	background-color: black;
 	color:white;
 	padding-top: 10px;
@@ -35,7 +35,7 @@ h1{
 	margin-top: 0;
 }
 h3{
-	font-family: open sans;
+	font-family: 'Open Sans', sans-serif;
 	padding-left: 20px;
 	color: black;
 }
@@ -58,13 +58,13 @@ img{
 }
 h4{
 	font-size: 22px;
-	font-family: open sans;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 p{
 	color: black;
 	font-size: 18px;
-	font-family: open sans;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
