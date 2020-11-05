@@ -1,0 +1,61 @@
+body {
+	width: 100vw;
+	height: 150vw;
+    background-image: linear-gradient(white, #66023c);
+}
+a:link {
+    text-decoration: none;
+}
+.menu{
+	width: 150px;
+	height: 150vw;
+	left: 0%;
+	top:0%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	display: fixed;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color:white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-top: 0;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 20px;
+	color: black;
+}
+
+.img{
+	left: 20%;
+	padding-left: 50px;
+	padding-top: 100px;
+	position: absolute;
+}
+img{
+	width: 500px;
+}
+
+.text{
+	left:57%;
+	padding-top: 100px;
+	position: absolute;
+	width: 500px;
+}
+h4{
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+p{
+	color: black;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
